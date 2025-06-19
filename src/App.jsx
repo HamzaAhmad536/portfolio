@@ -26,6 +26,16 @@ const StylishHeading = ({ children }) => (
   </h2>
 );
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const heroRef = useRef();
@@ -651,6 +661,7 @@ const Portfolio = () => {
 
 const App = () => (
   <BrowserRouter basename="/portfolio">
+    <ScrollToTop />
     <Portfolio />
   </BrowserRouter>
 );
