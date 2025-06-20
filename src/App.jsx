@@ -441,7 +441,7 @@ const Portfolio = () => {
                   <MapPin className="w-5 h-5 md:w-6 md:h-6 text-accent-slate" />
                   <div>
                     <p className="text-neutral-400 text-sm">Location</p>
-                    <p className="text-white font-semibold">91 A1 PIA Society, Lahore, Pakistan</p>
+                    <p className="text-white font-semibold">Lahore, Pakistan</p>
                   </div>
                 </div>
               </div>
