@@ -17,6 +17,7 @@ import img1 from '../src/assets/images/project1.jpg'
 import img2 from '../src/assets/images/project2.jpg'
 import img3 from '../src/assets/images/project3.jpg'
 import img4 from '../src/assets/images/project4.jpg'
+import img5 from '../src/assets/images/project5_1.jpg'
 
 const BASE_PATH = '/portfolio';
 
@@ -198,6 +199,15 @@ const Portfolio = () => {
       live: "https://hamzaahmad536.github.io/GreenYasin/",
       image: img2,
       category: "React"
+    },
+    {
+      title: "AI Chatbot for Halawa Wax",
+      description: "An AI-powered chatbot designed to simulate human-like conversations, automate responses, and provide intelligent assistance in real time.",
+      tech: ["AI", "FAST API", "ML", "OpenAI" , "React"],
+      github: "https://github.com/HamzaAhmad536/chatbot",
+      live: "https://hamzaahmad536.github.io/chatbot/",
+      image: img5,
+      category: "AI/ML"
     },
     {
       title: "Subjectify App",
