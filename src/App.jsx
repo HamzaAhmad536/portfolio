@@ -18,6 +18,7 @@ import img2 from '../src/assets/images/project2.jpg'
 import img3 from '../src/assets/images/project3.jpg'
 import img4 from '../src/assets/images/project4.jpg'
 import img5 from '../src/assets/images/project5_1.jpg'
+import img6 from '../src/assets/images/project6.jpg'
 
 const BASE_PATH = '/portfolio';
 
@@ -199,6 +200,15 @@ const Portfolio = () => {
       live: "https://hamzaahmad536.github.io/GreenYasin/",
       image: img2,
       category: "React"
+    },
+    {
+      title: "Snap to Reuse",
+      description: "A smart sustainability web app that uses real-time object detection to suggest creative ways to reuse everyday items. Powered by TensorFlow.js, EcoVision helps you turn trash into treasure through visual recognition and curated DIY ideas.",
+      tech: ["TensorFlow", "AI", "ML", "HTML5"],
+      github: "https://github.com/affanabid/SnapToReuse.git",
+      live: "https://snaptoreuse.netlify.app/",
+      image: img6,
+      category: "AI/ML"
     },
     {
       title: "AI Chatbot for Halawa Wax",
