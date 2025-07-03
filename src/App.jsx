@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin, Github, ExternalLink, Send, Code, Palette, Zap, Me
 import jsLogo from './assets/images/js-removebg-preview.png';
 import reactLogo from './assets/images/react-removebg-preview.png';
 import cssLogo from './assets/images/css-removebg-preview.png';
-import htmlLogo from './assets/images/html-removebg-preview.png';
+import htmlLogo from './assets/images/python.png';
 import javaLogo from './assets/images/java-removebg-preview.png';
 import cppLogo from './assets/images/cplusplus-removebg-preview.png';
 import sqlLogo from './assets/images/sql-removebg-preview.png';
@@ -243,7 +243,7 @@ const Portfolio = () => {
     { name: "JavaScript", img: jsLogo, alt: "JavaScript logo" },
     { name: "React", img: reactLogo, alt: "React logo" },
     { name: "CSS/SCSS", img: cssLogo, alt: "CSS/SCSS logo" },
-    { name: "HTML", img: htmlLogo, alt: "HTML logo" },
+    { name: "Python", img: htmlLogo, alt: "HTML logo" },
     { name: "Java", img: javaLogo, alt: "Java logo" },
     { name: "C++", img: cppLogo, alt: "C++ logo" },
     { name: "MySQL", img: sqlLogo, alt: "MySQL logo" },
@@ -260,7 +260,7 @@ const Portfolio = () => {
               Hamza Ahmad
             </h1>
             <p className="text-xl md:text-2xl lg:text-3xl text-neutral-200 mb-8 animate-fade-in-up animation-delay-300">
-              Frontend Developer & UI/UX Enthusiast
+              Frontend Developer & AI/ML Enthusiast
             </p>
             <p className="text-base md:text-lg text-neutral-300 mb-12 max-w-3xl mx-auto animate-fade-in-up animation-delay-600">
               An ambitious Computer Science undergraduate crafting beautiful, interactive web experiences 
