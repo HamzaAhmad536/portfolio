@@ -189,6 +189,7 @@ const Portfolio = () => {
       description: "A machine learning & computer vision–based project that alerts the driver when drowsiness is detected using advanced AI algorithms.",
       tech: ["Python", "OpenCV", "Machine Learning", "Computer Vision"],
       github: "https://github.com/HamzaAhmad536/Driver-Drowsiness-System.git",
+      live: "https://hamzaahmad536.github.io/DriverDrowsiness/",
       image: img1,
       category: "AI/ML"
     },
