@@ -1,29 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  corePlugins: {
+    layers: ["base", "components", "utilities"],
+  },
   theme: {
     extend: {
-      colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
-      },
-      boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
-      },
       screens: {
-        xs: "450px",
+        desktop: "1130px",
       },
-      backgroundImage: {
-        "hero-pattern": "linear-gradient(to right bottom, #6d28d9, #4c1d95)",
+
+      colors: {
+        "primary-color": "#0DFC4B",
+        "light-green": "rgba(142, 255, 139, 0.5)",
+        "dark-green": "#8EFF8B",
+        "light-gray": "#AEAEAE",
       },
     },
   },
   plugins: [],
-}
+};
