@@ -1,5 +1,5 @@
 import ParticlesBackground from "./components/ParticlesBackground"
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, BrowserRouter } from "react-router-dom"
 import AboutPage from "./components/pages/AboutPage"
 import HomePage from "./components/pages/HomePage"
 import SocialLinks from "./components/SocialLinks"
@@ -8,9 +8,11 @@ import AllProjectsPage from "./components/pages/AllProjectsPage"
 import AllTechsPage from "./components/pages/AllTechsPage"
 
 function App() {
+  // Determine the base path for routing
+  const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
 
   return (
-    <>
+    <BrowserRouter basename={basename}>
       <ParticlesBackground />
       <SocialLinks />
       
@@ -26,9 +28,7 @@ function App() {
       </Routes>
 
       <GeneralFooter />
-        
-      
-    </>
+    </BrowserRouter>
   )
 }
 
