@@ -8,6 +8,7 @@ import img3 from '/images/projectsImages/project3.jpg'
 import img4 from '/images/projectsImages/project4.jpg'
 import img5 from '/images/projectsImages/project5_1.jpg'
 import img6 from '/images/projectsImages/project6.jpg'
+import img7 from '/images/projectsImages/project7.jpg'
 
 export const projects = [
   {
@@ -42,9 +43,26 @@ export const projects = [
     description: "A responsive frontend project with stunning UI/UX design, showcasing modern web development practices and clean architecture.",
     tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     github: "https://github.com/HamzaAhmad536/GreenYasin",
-    live: "https://hamzaahmad536.github.io/GreenYasin/",
+    live: "https://www.greenyasin.pk/GreenYasin/",
     image: img2,
     category: "React"
+  },
+  {
+    title: "Lumainaire SkinCare",
+    description: "A modern, responsive e-commerce platform with an AI chatbot for customer support. Features include product listings, cart management and secure payments.",
+    tech: ["HTML", "CSS", "JavaScript", "NodeJS", "MondoDB", "Express", "React" , "AI", "FAST API", "OpenAI"],
+    github: "https://github.com/AreebaTanveer19/skincare-website",
+    live: "https://areebatanveer19.github.io/skincare-website/",
+    image: img7,
+    category: "AI/ML , React , NodeJS , MongoDB"
+  },
+  {
+    title: "Pharmacy Management System",
+    description: "A comprehensive database management system built with SQL for efficient pharmacy operations and inventory tracking.",
+    tech: ["SQL", "Database Design", "MySQL", "Data Management"],
+    github: "https://github.com/HamzaAhmad536/Pharmacy-Management-System.git",
+    image: img4,
+    category: "Database"
   },
   {
     title: "Subjectify App",
@@ -55,14 +73,6 @@ export const projects = [
     image: img3,
     category: "React"
   },
-  {
-    title: "Pharmacy Management System",
-    description: "A comprehensive database management system built with SQL for efficient pharmacy operations and inventory tracking.",
-    tech: ["SQL", "Database Design", "MySQL", "Data Management"],
-    github: "https://github.com/HamzaAhmad536/Pharmacy-Management-System.git",
-    image: img4,
-    category: "Database"
-  }
 ];
 
 const AllProjects = () => {
